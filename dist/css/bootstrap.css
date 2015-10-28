@@ -1361,12 +1361,12 @@ a.text-danger:hover,
 a.text-danger:focus {
   color: #843534;
 }
-.bg-primary {
+.bg-brand-primary {
   color: #fff;
   background-color: #337ab7;
 }
-a.bg-primary:hover,
-a.bg-primary:focus {
+a.bg-brand-primary:hover,
+a.bg-brand-primary:focus {
   background-color: #286090;
 }
 .bg-success {
@@ -6532,6 +6532,9 @@ button.close {
 .pull-left {
   float: left !important;
 }
+.diplay-inline {
+  display: inline;
+}
 .hide {
   display: none !important;
 }
@@ -6556,6 +6559,17 @@ button.close {
 }
 .bg-primary {
   background-color: #24385d;
+}
+.bg-secundary {
+  background-color: #d8d8d8;
+}
+.bg-prueba {
+  background-color: #E6E6E6;
+  width: 100vw;
+  height: 200px;
+}
+.padding-medium {
+  padding-right: 50%;
 }
 @-ms-viewport {
   width: device-width;

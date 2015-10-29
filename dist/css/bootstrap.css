@@ -6584,6 +6584,12 @@ button.close {
 .bg-tertiary {
   background-color: #585858;
 }
+.bg-darker {
+  background-color: #848484;
+}
+.bg-dark {
+  background-color: #bdbdbd;
+}
 .padding-medium {
   padding-right: 50%;
 }
@@ -6604,6 +6610,9 @@ button.close {
 }
 .margin-small {
   margin-bottom: 10px;
+}
+.margin-large {
+  margin-bottom: 150px;
 }
 @-ms-viewport {
   width: device-width;

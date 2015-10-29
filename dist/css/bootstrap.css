@@ -1517,6 +1517,24 @@ address {
   font-style: normal;
   line-height: 1.42857143;
 }
+.text-light {
+  color: #ffffff;
+}
+.text-gray-lighter {
+  color: #eeeeee;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.glyphicon-align-justify {
+  padding-top: 15px;
+  font-size: 35px;
+}
+.glyphicon-exclamation-sign {
+  font-size: 40px;
+  padding: 0 5px;
+}
 code,
 kbd,
 pre,
@@ -6563,13 +6581,29 @@ button.close {
 .bg-secundary {
   background-color: #d8d8d8;
 }
-.bg-prueba {
-  background-color: #E6E6E6;
-  width: 100vw;
-  height: 200px;
+.bg-tertiary {
+  background-color: #585858;
 }
 .padding-medium {
   padding-right: 50%;
+}
+.padding-extralarge {
+  padding: 0 20%;
+}
+.padding-small {
+  padding: 0 10%;
+}
+.padding-large {
+  padding: 50px;
+}
+.padding-primary {
+  padding: 30px 0;
+}
+.margin-primary {
+  margin-bottom: 30px;
+}
+.margin-small {
+  margin-bottom: 10px;
 }
 @-ms-viewport {
   width: device-width;
